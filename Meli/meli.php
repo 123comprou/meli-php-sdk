@@ -32,13 +32,11 @@ class Meli {
     /**
      * Configuration for CURL
      */
-    public static $CURL_OPTS = array(
-        CURLOPT_USERAGENT => "MELI-PHP-SDK-1.1.0", 
-        CURLOPT_SSL_VERIFYPEER => true,
-        CURLOPT_CONNECTTIMEOUT => 10, 
-        CURLOPT_RETURNTRANSFER => 1, 
-        CURLOPT_TIMEOUT => 60
-    );
+    CONST CURLOPT_USERAGENT = "MELI-PHP-SDK-1.1.0";
+    CONST CURLOPT_SSL_VERIFYPEER = true;
+    CONST CURLOPT_CONNECTTIMEOUT = 10;
+    CONST CURLOPT_RETURNTRANSFER = 1;
+    CONST CURLOPT_TIMEOUT = 60;
 
     protected $client_id;
     protected $client_secret;
