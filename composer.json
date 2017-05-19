@@ -1,5 +1,6 @@
 {
     "name": "123comprou/meli-php-sdk",
     "require": {},
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "minimum-stability": "dev"
 }
